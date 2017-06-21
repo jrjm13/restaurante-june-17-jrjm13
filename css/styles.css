@@ -18,6 +18,10 @@ p {
   text-shadow: 2px 2px #333;
 }
 
+body {
+  position: relative;
+}
+
 /*Header Styles*/
 .navbar {
   background-color: transparent;
@@ -155,4 +159,48 @@ color: #f8512f;
   font-family: 'Lobster', cursive;
   color: #fff;
   font-size: 5em;
+}
+
+/*contact*/
+
+button {
+  margin-top: 20%;
+}
+
+#contact {
+  background-color: #f8512f;
+  height: 800px;
+}
+
+.contact-form {
+  margin-top: 7%;
+}
+
+form {
+  margin: 20%;
+  background-color: #ff8000;
+  padding: 2%;
+  border: 2px solid #fff;
+}
+
+.block {
+  color: #fff;
+}
+
+.block h1 {
+  font-size: 5em;
+}
+
+address {
+  margin-top: 7%;
+  color: #fff;
+}
+
+iframe {
+  height: 300px;
+  width: 70%;
+}
+
+.required {
+  color: red;
 }
